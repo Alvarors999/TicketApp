@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body, html {
+    font-family:Raleway;
+    height:100%;
+    margin:0;
+    padding:0;
+}
+
+.container {
+    width:100%;
+    
+    height:100%;
+}
+
+.firstticket {
+    width:60%;
+    height:40%;
+    background:pink;
+    margin:0 auto;
+    margin-top:2.5%;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color:black;
+}
+
+.ticket1 {
+    color:pink !important;
+}
+
+
+.firstbackground {
+    width:75%;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    height:100%;
+    float:left;
+}
+
+.imagen1{
+    background-image:url('../img/backgroundlordoftherings.jpg');
+}
+.imagen2{
+    background-image:url('../img/sevensamurai.jpg');
+}
+.imagen3{
+    background-image:url('../img/slumdog-millionaire.jpg');
+}
+.imagen4{
+    background-image:url('../img/avatar.jpg');
+}
+
+
+.firstticketinfo {
+    width:25%;
+    height:100%;
+    float:left;
+    background:#f4f0ec;
+    text-decoration:none;
+}
+
+.info{
+    width:100%;
+    height:35%;
+    margin-top:45%;
+}
+
+#title{
+    width:70%;
+    margin:0 auto;
+    text-align:center;
+    
+}
+
+.buy {
+    width:85%;
+    height:40%;
+    background:white;
+    border:1px solid #CCCCCC;
+    margin:0 auto;
+    margin-top:10%;
+    text-align:center;
+    transition: all .2s ease-in-out;
+}
+
+.buy:hover{
+transform: scale(1.1); 
+}
+
+
+.buyshow {
+    float:left;
+    width:30%;
+    height:40%;
+    margin-top:3%;
+    margin-left:20%;
+    
+}
+
+#price {
+    float:left;
+    border-left:1px solid black;
+    width:30%;
+    height:40%;
+    margin-top:6%;
+    margin-left:15%;
+    
+    
+}
+
+p{
+    margin:0;
+}
+
+p.buyshow:before{
+    content: "";
+    background-image: url('../img/boleto.png');
+    background-size: contain;
+    font-weight: 800;
+    width: 23px;
+    height: 23px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    left: -30px;
+}
+
+
+.secondticket {
+    width:60%;
+    height:40%;
+    background:pink;
+    margin:0 auto;
+    margin-top:2.5%;
+}
+
+.secondbackground {
+    width:75%;
+    background-image:url('../img/sevensamurai.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    height:100%;
+    float:left;
+}
+
+.thirdticket {
+    width:60%;
+    height:40%;
+    background:pink;
+    margin:0 auto;
+    margin-top:2.5%;
+}
+
+.thirdbackground {
+    width:75%;
+    background-image:url('../img/avatar.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    height:100%;
+    float:left;
+}
+
+.fourthticket {
+    width:60%;
+    height:40%;
+    
+    margin:0 auto;
+    margin-top:2.5%;
+    padding-bottom:5%;
+}
+
+.fourthbackground {
+    width:75%;
+    background-image:url('../img/slumdog-millionaire.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    height:100%;
+    float:left;
+}
+
+
+@media screen and (max-width:1700px) {
+    p.buyshow:before {
+        display:none;
+        
+    }
+    .buyshow {
+        margin-top:6%;
+    }
+}
+
+
+
+.redirecciones{
+    width:70%;
+    height:50%;
+    color:black;
+    padding:0;
+    top:45%;
+    left:30%;
+   
+}
+
+.redirecciones a{
+    color:black;
+    width:10%;
+    height:7%;
+    padding-top:1%;
+    float:left;
+    text-align:center;
+    background-image: linear-gradient(to right, #333333 , #AAAAAA);
+    color:white;
+    box-shadow:0px 3px 3px black;
+    transition:all 0.3s ease;
+    border: 1px solid black;
+    margin-left:70%;
+    margin-top:10%;
+   
+}
+
+
+.redirecciones a:hover {
+    transform: scale(1.1); 
+    
+}
+.redirecciones2 a:hover {
+    transform: scale(1.1); 
+    
+}
+.container-index{
+    width:100%;
+    height:100%;
+    background-image:url('../img/Pulp.jpg');
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+.darkness{
+    width:100%;
+    height:100%;
+    background:black;
+    z-index:2;
+    position:absolute;
+    opacity:50%;
+}
+
+.whitespace {
+    width:100%;
+    height:50%;
+}
+
+
+.redirecciones2{
+    width:80%;
+    height:50%;
+    color:black;
+    padding:0;
+    top:35%;
+    left:-10%;
+    position:Absolute;
+    z-index:3;
+   
+}
+
+.redirecciones2 a{
+    color:black;
+    width:10%;
+    height:7%;
+    padding-top:1%;
+    float:left;
+    text-align:center;
+    background-image: linear-gradient(to right, #333333 , #AAAAAA);
+    color:white;
+    box-shadow:0px 3px 3px black;
+    transition:all 0.3s ease;
+    border: 1px solid black;
+    margin-left:70%;
+    margin-top:10%;
+   
+}
